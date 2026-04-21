@@ -1,0 +1,543 @@
+#btnmenu-hover:hover{
+    background-color: #fff;
+    border: #fff;
+    color: #bb9c71;
+}
+
+.footer {
+    background: #0b1220;
+    padding: 100px 0;
+    width: 100%;
+    position: relative;
+    clear: both;
+}
+
+.footer-container {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.col {
+    width: 18%;
+    float: left;
+    margin-right: 2%;
+}
+
+.col:last-child {
+    margin-right: 0;
+}
+
+.col h4 {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.col a {
+    display: block;
+    color: #7a7f8a;
+    text-decoration: none;
+    margin-bottom: 12px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.col a:hover {
+    color: #c2a76d;
+}
+
+.newsletter p {
+    color: #7a7f8a;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 12px 15px;
+    background: transparent;
+    border: 1px solid #1f2a44;
+    color: white;
+    outline: none;
+}
+
+.input-box input::placeholder {
+    color: #7a7f8a;
+}
+
+.input-box button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 45px;
+    background: #c2a76d;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.footer::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.restaurant-contact {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 40px 10%;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  gap: 60px; 
+  align-items: center;
+}
+
+
+.map-placeholder {
+  flex: 1;
+  background-color: #e9ecef; 
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+
+.content {
+  flex: 1;
+}
+
+.content h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 4px;
+  line-height: 1.2;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.info-group {
+  margin-bottom: 25px;
+}
+
+.info-group p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 8px;
+  letter-spacing: 1px;
+}
+
+
+.side-tab {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 20px 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.side-tab span {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+
+.left-tab {
+  left: 0;
+  background-color: #f8f8f8;
+  border: 1px solid #eee;
+  border-left: none;
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+
+
+.right-tab {
+  right: 0;
+  background-color: #b0976a; 
+  color: white;
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+  padding: 30px 15px;
+  
+}
+
+
+.section5 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 80px 10%;
+    background-color: #fff;
+}
+
+.container-contact {
+    display: flex;
+    width: 100%;
+    max-width: 1100px;
+    gap: 80px; 
+    align-items: center;
+}
+
+.map-placeholder {
+    flex: 1.2;
+    background-color: #e9ecef; 
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+    border: 1px solid #eee;
+}
+
+.error-box img {
+    width: 40px;
+    margin-bottom: 15px;
+    opacity: 0.6;
+}
+
+.content-contact {
+    flex: 1;
+}
+
+
+
+.info-group {
+    margin-bottom: 30px;
+}
+
+.info-group p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 6px;
+    letter-spacing: 1px;
+}
+
+
+.side-tab {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.side-tab span {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400&display=swap');
+
+.secao-reserva {
+    background-color: #ffffff; 
+    padding: 100px 0;
+    font-family: 'Playfair Display', serif; 
+}
+
+.container-reserva {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr; 
+    align-items: center;
+    gap: 60px;
+}
+
+
+.bloco-bege-form {
+    background-color: #F9F5F1; 
+    padding: 60px; 
+}
+
+.linha-input {
+    margin-bottom: 20px;
+}
+
+.linha-dupla {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+
+input, select, textarea {
+    width: 100%;
+    padding: 15px;
+    border: none; 
+    background-color: #ffffff;
+    font-size: 14px;
+    color: #999;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+
+.campo-icone {
+    position: relative;
+}
+
+.icone-calendario {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ccc;
+    font-size: 12px;
+}
+
+.botao-container {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.btn-enviar {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 18px 45px;
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.coluna-texto {
+    padding-left: 20px;
+}
+
+.titulo-reserva {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    line-height: 1.1;
+    letter-spacing: 5px;
+    margin-bottom: 35px;
+    color: #1a1a1a;
+    text-transform: uppercase;
+}
+
+.descricao-reserva {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #777;
+    max-width: 450px;
+}
+
+.secao-chef {
+    padding: 100px 0;
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-chef {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    gap: 60px;
+}
+
+
+.conteudo-texto {
+    flex: 1;
+    max-width: 500px;
+}
+
+.titulo-chef {
+    font-family: 'Playfair Display', serif; 
+    font-size: 3.8rem;
+    line-height: 1.1;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+    color: #1a1a1a;
+    font-weight: 400;
+}
+
+.paragrafo-chef {
+    font-size: 0.95rem;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 35px;
+    text-align: justify;
+}
+
+.imagem-assinatura {
+    max-width: 200px;
+    height: auto;
+    display: block;
+}
+
+
+.bloco-imagem-chef {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.foto-chef {
+    width: 100%;
+    max-width: 550px; 
+    height: auto;
+    display: block;
+}
+
+.hero-gallery {
+    position: relative;
+    width: 80%;
+    
+    margin: 120px auto 0 auto;
+    background: url("img/header-bg.png") center/cover no-repeat;
+    background-size: 88%;
+    margin-top: 100px;
+    bottom: -50px;
+}
+
+
+
+.imagem1{
+    position: absolute;
+    margin-left: 27%;
+    top: -5%;
+    width: 28%;
+    overflow: hidden;
+}
+
+.imagem2{
+    position: absolute;
+    margin-left: 56%;
+    top: 20%;
+    height: 30%;
+    width: 23%;
+}
+
+.imagem3{
+    position: absolute;
+    top: 38%;
+    margin-left: 32%;
+    height: 30%;
+    width: 23%;
+}
+
+.imagem4{
+    position: absolute;
+    top: 51%;
+    margin-left: 56%;
+    height: 34%;
+    width: 26%;
+}
+
+.fotos-gallery {
+    position: relative;
+    height: 1800px;
+
+}
+
+.fotos-gallery img{
+    object-fit: cover;
+    transition: transform 0.4s ease;
+    display: block;
+    
+}
+
+.side-left, .side-right {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.side-left {
+    left: 0;
+}
+
+.side-right {
+    right: 0;
+}
+
+
+.side-left, .side-right {
+    position: fixed;
+}
+
+
+
+.desc-ladodireito {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.desc-ladoesquerdo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(90deg);
+    cursor: pointer;
+    color: #000;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.desc-ladoesquerdo:hover{
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+
+.desc-ladodireito:hover{
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+
+.desc-esq{
+    text-decoration: none;
+    color: black;
+}
+
+.desc-dir{
+    text-decoration: none;
+    color: white;
+}

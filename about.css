@@ -1,0 +1,242 @@
+.hero {
+    width: 80%;
+    height: 400px;
+
+    
+    background-image: url("img/banner-bg.png");
+
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.conteudo {
+    position: relative;
+    text-align: center;
+    color: white;
+    
+}
+
+.conteudo h1 {
+    font-size: 48px;
+    letter-spacing: 5px;
+    font-weight: 500;
+}
+
+.linha {
+    width: 420px;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.712);
+    margin: 15px auto;
+}
+
+.conteudo p {
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-family: "Playfair Display", serif;
+}
+
+.secao-sobre {
+    width: 100%;
+    padding: 100px 0;
+    background: #fff;
+}
+
+.container-sobre {
+    width: 80%;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 127px;
+}
+
+
+.lado-imagem img {
+    width: 535px;
+    height: 800px;
+    display: block;
+}
+
+
+.lado-texto {
+    max-width: 500px;
+}
+
+.lado-texto h2 {
+    font-size: 48px;
+    letter-spacing: 6px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.lado-texto p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.9;
+}
+
+.footer {
+    background: #0b1220;
+    padding: 100px 0;
+    width: 100%;
+    position: relative;
+    clear: both;
+}
+
+.footer-container {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.col {
+    width: 18%;
+    float: left;
+    margin-right: 2%;
+}
+
+.col:last-child {
+    margin-right: 0;
+}
+
+.col h4 {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.col a {
+    display: block;
+    color: #7a7f8a;
+    text-decoration: none;
+    margin-bottom: 12px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.col a:hover {
+    color: #c2a76d;
+}
+
+.newsletter p {
+    color: #7a7f8a;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 12px 15px;
+    background: transparent;
+    border: 1px solid #1f2a44;
+    color: white;
+    outline: none;
+}
+
+.input-box input::placeholder {
+    color: #7a7f8a;
+}
+
+.input-box button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 45px;
+    background: #c2a76d;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.footer::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400&display=swap');
+
+.secao-chef {
+    padding: 100px 0;
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-chef {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    gap: 60px;
+}
+
+
+.conteudo-texto {
+    flex: 1;
+    max-width: 500px;
+}
+
+.titulo-chef {
+    font-family: 'Playfair Display', serif; 
+    font-size: 3.8rem;
+    line-height: 1.1;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+    color: #1a1a1a;
+    font-weight: 400;
+}
+
+.paragrafo-chef {
+    font-size: 0.95rem;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 35px;
+    text-align: justify;
+}
+
+.imagem-assinatura {
+    max-width: 200px;
+    height: auto;
+    display: block;
+}
+
+
+.bloco-imagem-chef {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.foto-chef {
+    width: 100%;
+    max-width: 550px; 
+    height: auto;
+    display: block;
+}
+
+
+
